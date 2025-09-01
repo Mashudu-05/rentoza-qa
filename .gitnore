@@ -1,0 +1,59 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+logs/
+*.log
+*.html
+*.xml
+*.csv
+*.json
+
+# Screenshots and test artifacts
+screenshots/
+reports/
+output/
+*.png
+
+# Pytest cache
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Environment files
+.env
+*.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks (if used for debugging)
+*.ipynb
+
+# Git ignore file itself
+.gitignore
