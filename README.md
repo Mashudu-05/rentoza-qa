@@ -35,7 +35,3 @@ Open your terminal and run:
 pip install selenium
 pip install pytest
 pip install webdriver-manager
-```bash
-pip install selenium
-pip install pytest
-pip install webdriver-manager
