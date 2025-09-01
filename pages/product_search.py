@@ -32,13 +32,13 @@ class ProductGridPage:
                 if availability_text and availability_text.lower() not in availability.lower():
                     continue
 
-                print(f"✅ Match found: {title} | Vendor: {vendor_name} | Price: R{price}")
+                print(f"Match found: {title} | Vendor: {vendor_name} | Price: R{price}")
                 product.find_element(By.CSS_SELECTOR, ".product-title-container a").click()
                 return True
 
             except Exception as e:
-                print(f"⚠️ Skipping product due to error: {e}")
+                print(f"Skipping product due to error: {e}")
                 continue
 
-        print("❌ No matching product found.")
+        print("No matching product found.")
         return False
